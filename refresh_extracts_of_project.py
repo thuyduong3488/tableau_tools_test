@@ -34,3 +34,6 @@ try:
 except (AttributeError, TypeError) as e:
     print("Error occurred: ", e)
 
+# Sign out
+default.signout()
+
